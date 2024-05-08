@@ -1,0 +1,17 @@
+name: Deploy
+
+on:
+  push:
+    branches:
+      - e309637
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: akhileshns/heroku-deploy@v3.13.15 # This is the action
+        with:
+          heroku_api_key: HRKU-3e5b5d48-e5c9-4e8e-b564-97d453a19a99
+          heroku_app_name: cruddistribuida #Must be unique in Heroku
+          heroku_email: clobodiaz@outlook.com 
