@@ -12,6 +12,6 @@ jobs:
       - uses: actions/checkout@v2
       - uses: akhileshns/heroku-deploy@v3.13.15 # This is the action
         with:
-          heroku_api_key: HRKU-3e5b5d48-e5c9-4e8e-b564-97d453a19a99
-          heroku_app_name: cruddistribuida #Must be unique in Heroku
-          heroku_email: clobodiaz@outlook.com 
+          heroku_api_key: HRKU-66cc4c41-8519-4346-84f1-1cca9c499ea5
+          heroku_app_name: ba-movies-deploy #Must be unique in Heroku
+          heroku_email: j.atiencia@yahoo.com 
